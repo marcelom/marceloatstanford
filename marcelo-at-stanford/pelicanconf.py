@@ -31,4 +31,9 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 
 # Themes
-THEME = 'themes/cebong'
+THEME = 'themes/myidea'
+#THEME = 'themes/cebong'
+#THEME = 'themes/nmnlist'
+#THEME = 'themes/mnmlist'
+
+DISQUS_SITENAME = 'marceloatstanford'
