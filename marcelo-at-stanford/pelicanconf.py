@@ -4,9 +4,9 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Marcelo Moreira'
 SITENAME = u'Marcelo @ Stanford'
-SITEURL = ''
+SITEURL = 'http://www.stanford.edu/~marcelom'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'US/Pacific'
 
 DEFAULT_LANG = u'en'
 
@@ -29,3 +29,6 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+
+# Themes
+THEME = 'themes/cebong'
