@@ -16,7 +16,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS =  (('Pelican', 'http://getpelican.com/'),
+LINKS = (('Pelican', 'http://getpelican.com/'),
           ('Python.org', 'http://python.org/'),
           ('Jinja2', 'http://jinja.pocoo.org/'),
           ('You can modify those links in your config file', '#'),)
@@ -31,9 +31,13 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 
 # Themes
-THEME = 'themes/myidea'
-#THEME = 'themes/cebong'
-#THEME = 'themes/nmnlist'
-#THEME = 'themes/mnmlist'
+# THEME = 'themes/myidea'
+THEME = 'themes/stanfordu'
+# THEME = 'themes/cebong'
+# THEME = 'themes/nmnlist'
+# THEME = 'themes/mnmlist'
 
 DISQUS_SITENAME = 'marceloatstanford'
+
+# Show the Stanford Site Search Box
+SITE_SEARCH_BOX = True
