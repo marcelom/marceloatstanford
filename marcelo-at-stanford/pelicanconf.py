@@ -31,11 +31,12 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 
 # Themes
-# THEME = 'themes/myidea'
-THEME = 'themes/stanfordu'
-# THEME = 'themes/cebong'
-# THEME = 'themes/nmnlist'
-# THEME = 'themes/mnmlist'
+THEME = 'themes/marcelo'
+#THEME = 'themes/myidea'
+#THEME = 'themes/stanfordu'
+#THEME = 'themes/cebong'
+#THEME = 'themes/nmnlist'
+#THEME = 'themes/mnmlist'
 
 DISQUS_SITENAME = 'marceloatstanford'
 
