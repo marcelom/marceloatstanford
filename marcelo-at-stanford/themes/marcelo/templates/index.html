@@ -5,7 +5,8 @@
 
 <div class="post">
 
-	<h1 class="title"><a href="{{ SITEURL }}/{{ articles[0].url }}">{{articles[0].title}}</a></h1>
+	<!--<h1 class="title"><a href="{{ SITEURL }}/{{ articles[0].url }}">{{articles[0].title}}</a></h1>-->
+	<h1 class="title"><a href="{{ articles[0].url }}">{{articles[0].title}}</a></h1>
 	<div class="date">
 		{{ articles[0].locale_date }}
 	</div>
@@ -16,24 +17,7 @@
 	</div>
 
 	<div class="feedback">
-		So? Liked it? Hated it? Thought it was stupid? Thought <strong>I</strong> was stupid? Deemed it to be informative? Want to lavish excessive praise or cast fiery insults? <a href="/contact.html">Contact me</a> and have at it.
-		<div id="disqus_thread">
-			&nbsp;
-		</div>
-		<script type="text/javascript">
-			/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-			var disqus_shortname = 'marceloatstanford';
-			// required: replace example with your forum shortname
-
-			/* * * DON'T EDIT BELOW THIS LINE * * */
-			(function() {
-				var dsq = document.createElement('script');
-				dsq.type = 'text/javascript';
-				dsq.async = true;
-				dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-			})();
-		</script>
+		<a href="/contact.html">Contact me</a>.
 	</div>
 </div>
 

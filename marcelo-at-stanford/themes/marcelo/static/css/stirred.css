@@ -77,19 +77,19 @@ abbr, acronym {
 #title H1 {
 	float: left;
 	margin: 20px 0 0 80px;
-	-webkit-border-bottom-left-radius: 14px;
-	-webkit-border-bottom-right-radius: 14px;
-	-moz-border-radius-bottomleft: 14px;
-	-moz-border-radius-bottomright: 14px;
-	border-bottom-left-radius: 14px;
-	border-bottom-right-radius: 14px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 	padding: 0 30px 6px 30px;
 	color: #fcfcfc;
 	background-color: #000000;
 	font-size: 150%;
 	font-weight: bold;
 	text-align: center;
-	width: 200px; /*Original was 100. You might have to adust this to your site, depending on the text size...*/
+	width: 260px; /*Original was 100. You might have to adust this to your site, depending on the text size...*/
 }
 #title H1 A {
 	color: #fcfcfc;
@@ -99,15 +99,15 @@ abbr, acronym {
 }
 #title UL {
 	position: absolute;
-	left: 340px; /*This one is equal to the H1 size plus 140*/
+	left: 400px; /*This one is equal to the H1 size plus 140*/
 	font-weight: bold;
 	margin: 7px 2em 0 0;
-	-webkit-border-top-left-radius: 14px;
-	-webkit-border-top-right-radius: 14px;
-	-moz-border-radius-topleft: 14px;
-	-moz-border-radius-topright: 14px;
-	border-top-left-radius: 14px;
-	border-top-right-radius: 14px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 	padding: 0 1em 0.2em 1em;
 	background-color: #fcfcfc;
 	list-style-type: none;
