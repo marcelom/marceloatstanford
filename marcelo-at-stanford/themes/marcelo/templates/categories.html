@@ -1,8 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
 
-{% if articles %}
-
 <div class="post">
 
 	<!--<h1 class="title"><a href="{{ SITEURL }}/{{ articles[0].url }}">{{articles[0].title}}</a></h1>-->
@@ -17,7 +15,5 @@
 		<a href="{{SITEURL_SUFFIX}}/pages/contact">Contact me</a>.
 	</div>
 </div>
-
-{% endif %}
 
 {% endblock %}
