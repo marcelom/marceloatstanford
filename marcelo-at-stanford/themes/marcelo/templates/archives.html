@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+{% if articles %}
+<div class="archive">
+	<div class="post">
+		<h2 class="title"><a href="/2012/json_net_nhibernate.html">Json.NET and NHibernate Serialization Blues</a></h2>
+		<div class="date">
+			2012-02-27
+		</div>
+
+		<div class="body">
+			Keep Json.NET from going too deep on NHibernate proxies.
+		</div>
+	</div>
+</div>
+{% endif %}
+{% endblock %}
