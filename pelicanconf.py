@@ -24,6 +24,7 @@ RELATIVE_URLS = True
 # Copy some files over...
 # FILES_TO_COPY = (('apache-htaccess', '.htaccess'),)
 
+# Had to do this because the README.md was confusing Pelican...
 PAGE_DIR = ('pages')
 ARTICLE_DIR = ('posts')
 ARTICLE_EXCLUDES = (('pages','.'))
@@ -45,13 +46,3 @@ DAY_ARCHIVE_SAVE_AS = False
 
 # Themes
 THEME = 'themes/marcelo'
-# THEME = 'themes/myidea'
-# THEME = 'themes/stanfordu'
-# THEME = 'themes/cebong'
-# THEME = 'themes/nmnlist'
-# THEME = 'themes/mnmlist'
-
-DISQUS_SITENAME = 'marceloatstanford'
-
-# Show the Stanford Site Search Box
-SITE_SEARCH_BOX = True
