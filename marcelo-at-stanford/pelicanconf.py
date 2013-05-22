@@ -21,17 +21,20 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
+# Copy some files over...
+# FILES_TO_COPY = (('apache-htaccess', '.htaccess'),)
+
 # My theme ignores some templates, so here they are...
-ARTICLE_URL = '%s/posts/{slug}' % SITEURL_SUFFIX
-ARTICLE_SAVE_AS = 'posts/{slug}/index.html'
+ARTICLE_URL = '%s/posts/{slug}.html' % SITEURL_SUFFIX
+ARTICLE_SAVE_AS = 'posts/{slug}.html'
 ARTICLE_LANG_SAVE_AS = False  # Dsiables LANG processing, all site is in English...
-PAGE_URL = '%s/pages/{slug}' % SITEURL_SUFFIX
-PAGE_SAVE_AS = 'pages/{slug}/index.html'
+PAGE_URL = '%s/pages/{slug}.html' % SITEURL_SUFFIX
+PAGE_SAVE_AS = 'pages/{slug}.html'
 PAGE_LANG_SAVE_AS = False
 AUTHOR_SAVE_AS = False
 CATEGORY_SAVE_AS = False
-TAG_URL = '%s/tags/{slug}' % SITEURL_SUFFIX
-TAG_SAVE_AS = 'tags/{slug}/index.html'
+TAG_URL = '%s/tags/{slug}.html' % SITEURL_SUFFIX
+TAG_SAVE_AS = 'tags/{slug}.html'
 YEAR_ARCHIVE_SAVE_AS = False
 MONTH_ARCHIVE_SAVE_AS = False
 DAY_ARCHIVE_SAVE_AS = False

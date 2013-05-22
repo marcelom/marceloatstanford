@@ -1,26 +1,20 @@
 {% extends "base.html" %}
+{% block title %}{{ SITENAME }}, {{ page.title }}{%endblock%}
 {% block content %}
-
-{% if articles %}
-
 <div class="post">
-
 	<!--<h1 class="title"><a href="{{ SITEURL }}/{{ articles[0].url }}">{{articles[0].title}}</a></h1>-->
-	<h1 class="title"><a href="{{ articles[0].url }}">{{articles[0].title}}</a></h1>
-	<div class="date">
-		{{ articles[0].locale_date }}
-	</div>
+	<h1 class="title"><a href="{{ articles[0].url }}">{{page.title}}</a></h1>
+	<!-- <div class="date">
+	{{ page.locale_date }}
+	</div> -->
 	<div class="body">
 		<!--By <a href="{{ SITEURL }}/{{ articles[0].author.url }}">{{ articles[0].author }}</a>
 		{{articles[0].summary}}-->
-		{{articles[0].content}}
+		{{page.content}}
 	</div>
 
 	<div class="feedback">
 		<a href="/contact.html">Contact me</a>.
 	</div>
 </div>
-
-{% endif %}
-
 {% endblock %}
