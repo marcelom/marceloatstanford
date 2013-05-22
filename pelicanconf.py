@@ -24,6 +24,10 @@ RELATIVE_URLS = True
 # Copy some files over...
 # FILES_TO_COPY = (('apache-htaccess', '.htaccess'),)
 
+PAGE_DIR = ('pages')
+ARTICLE_DIR = ('posts')
+ARTICLE_EXCLUDES = (('pages','.'))
+
 # My theme ignores some templates, so here they are...
 ARTICLE_URL = '%s/posts/{slug}.html' % SITEURL_SUFFIX
 ARTICLE_SAVE_AS = 'posts/{slug}.html'

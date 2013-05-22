@@ -207,7 +207,7 @@ abbr, acronym {
 	margin-top: 1em;
 	margin-bottom: 0;
 	padding-bottom: 0;
-	text-transform: lowercase;
+	/* text-transform: lowercase; */
 }
 .body H2 {
 	margin-top: 1.5em;
