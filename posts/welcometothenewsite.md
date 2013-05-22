@@ -25,12 +25,12 @@ This is what happened:
 
 There were several reasons for that. They are (not in any specific order):
 
- 1. I wanted to play with static content generators: I really do like the idea - you create content based on a markdown language, and then it gets converted to a static site based on a template. There are innumerous advantages (and disadvantages as well) to this.
- 2. I wanted something fast. Yes... something even faster than a wiki. With a static site, all content is already generated. There is no dynamic processing of any kind.
+ 1. I wanted to play with static content generators: I really do like the idea - you create content based on a markdown language, and then it gets converted to a static site based on a template.
+ 2. I wanted something fast: Yes... something even faster than a wiki. With a static site, all content is already generated. There is no dynamic processing of any kind.
  3. I wanted to learn it: I saw [this](http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html) post and it inspeired me. I really liked the approach and decided to play with it. Since I am not a big fan of Ruby (sorry Ruby folks...), I immediately searched for something in Python. I found [Pelican](http://getpelican.com/) !
  4. I wanted to share more easily: by being allowed to make the posts in a flexible and portable markdown language, I am future-proofing my posts. I am not particularly stuck to a specific wiki syntax. There were a few options available, but I decided to start small and go with [Markdown](http://daringfireball.net/projects/markdown/).
  5. I wanted version control: This is absolutely a must !!! No questiosn asked. I use git for pretty much everything I do. I use GitHub a lot as well. The idea was to integrate the commit process to an auto-deployment hook that generates the site and deploys it on demand, every time there is a new post (or change). I will provide more details on this in another post.
- 6. I wanted flexibility: This is another must. I want to be able to theme my site in whatever way I want. I also want to be able to deploy it however and wherever I want. That way I retain full control and full flexibility. My posts and data are not stuck in a database somewhere else, and I dont need to limit myself to a select hand of templates with somewhat limited flexibility.
+ 6. I wanted flexibility: This is another must. I want to be able to theme my site in whatever way I want. I also want to be able to deploy it however and wherever I want. That way I retain full control and full flexibility. My posts and data are not stuck in a database somewhere else, and I dont need to limit myself to a select hand of templates with somewhat limited flexibility. Plus, with auto-deployment, I can jsut make a change to my git repository (only directly at GitHub, for example) and have it publish it automatically, and with all the features above.
 
 ## What to expect ?
 
