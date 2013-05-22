@@ -2,17 +2,10 @@
 {% block title %}{{ SITENAME }}, {{ page.title }}{%endblock%}
 {% block content %}
 <div class="post">
-	<!--<h1 class="title"><a href="{{ SITEURL }}/{{ articles[0].url }}">{{articles[0].title}}</a></h1>-->
-	<h1 class="title"><a href="{{ articles[0].url }}">{{page.title}}</a></h1>
-	<!-- <div class="date">
-	{{ page.locale_date }}
-	</div> -->
+	<h1 class="title">{{page.title}}</h1>
 	<div class="body">
-		<!--By <a href="{{ SITEURL }}/{{ articles[0].author.url }}">{{ articles[0].author }}</a>
-		{{articles[0].summary}}-->
 		{{page.content}}
 	</div>
-
 	<div class="feedback">
 		<a href="/contact.html">Contact me</a>.
 	</div>
