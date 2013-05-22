@@ -1,9 +1,8 @@
 #!/bin/bash
 
 #OUTPUT_DIR="./output"
-OUTPUT_DIR="/afs/ir/users/m/a/marcelom/WWW/pelicantest"
+OUTPUT_DIR="/afs/ir/users/m/a/marcelom/WWW/blog"
 PELICAN_CONF="pelicanconf.py"
 
 rm -rf $OUTPUT_DIR
 pelican . -o $OUTPUT_DIR -s $PELICAN_CONF
-

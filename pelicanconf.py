@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Marcelo Moreira'
 SITENAME = u'Marcelo @ Stanford'
 SITEURL = 'http://www.stanford.edu'  # *NO* trailing slash
-SITEURL_SUFFIX = '/~marcelom/pelicantest'  # *NO* trailing slash
+SITEURL_SUFFIX = '/~marcelom/blog'  # *NO* trailing slash
 
 TIMEZONE = 'US/Pacific'
 
