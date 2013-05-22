@@ -42,7 +42,7 @@ In the mean time, please check back often.
 
 You can find the [source code](https://github.com/marcelom/marceloatstanford) for this site in github.
 
-I also plan on making some improvements to the template. Maube something based on Stanford Modern, like this [page](https://www.stanford.edu/services/web/design/templates/modern/html/basic-nav.html).
+I also plan on making some improvements to the template. Maybe something based on Stanford Modern, like this [page](https://www.stanford.edu/services/web/design/templates/modern/html/basic-nav.html).
 
 My most sincere thanks for listening...
 
