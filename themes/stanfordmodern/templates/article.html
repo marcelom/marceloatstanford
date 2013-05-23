@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}{{ SITENAME }}, {{ article.title }}{%endblock%}
+{% block content %}
+<div class="post">
+	<h1 class="title">{{article.title}}</h1>
+	<div class="date">
+		{{article.locale_date}}
+	</div>
+	<div class="body">
+		<!--By <a href="{{ SITEURL }}/{{ articles[0].author.url }}">{{ articles[0].author }}</a>
+		{{articles[0].summary}}-->
+		{{article.content}}
+	</div>
+	<div class="feedback">
+		<a href="/contact.html">Contact me</a>.
+	</div>
+</div>
+{% endblock %}

@@ -1,0 +1,263 @@
+/* 1.GLOBAL */
+
+/* Content Specific Formatting --------------------------------- */
+body {height: 100%; -webkit-text-size-adjust: 100%;}
+body.nav h1, body.drawer h1 {padding: 0.5em 5px;}
+#center h1 {padding: 0.5em 0px;}
+
+.largest, .larger, .large, .medium, .small, .smaller, .smallest {font-size: 1em;}
+p {font-size: 1em; line-height: 1.2em; margin: 0 0 1em 0;}
+blockquote {margin: 1.25em; padding: 1.25em 1.25em 0 1.25em;}
+em {padding: 0 3px 0 0;}
+hr {background: #eae9e6; color: #eae9e6; border: none; height: 1px; margin: 0; padding: 0;}
+img {max-width: 100%; border: none; outline: none;}
+#center img {width: auto !important; height: auto !important; max-width: 100% !important;}
+
+dl {margin: .5em 0 .5em; padding: 0; line-height: 1.2em;}
+dl dt {margin: 0 0 .25em 0;}
+dl dd {margin: 0 0 .25em 1.5em;}
+ol {margin: .5em 0 .5em 1.5em; padding: 0; line-height: 1.2em;}
+ol li {margin: 0px 0px 0.25em 0.5em; padding: 0px;}
+ul {margin: .5em 0 .5em 1em; padding: 0; line-height: 1.2em;}
+ul li {margin: 0px 0px 0.25em 0.5em; padding: 0px;}
+
+table {margin: .5em 0; width: 100%; border: 0px;}
+thead th {color: #494949; font-weight: 700; border: 0px;}
+tbody {border: 0px;}
+th a:link, th a:visited {color: #7f7f7f;}
+td, th {padding: .25em;}
+
+quote, code {margin: .25em 0; word-wrap: break-word;}
+
+/* Box--------------------------------- */
+.box {border:1px solid #eee3c1; padding: 5px; width: auto; margin: 0px 0px 0.5em 0px; background: #fff;}
+.color-box {border:1px solid #eee3c1; padding: 5px; width: auto; margin: 0px 0px 0.5em 0px; background: #f6f3e5;}
+.center-box {border:1px solid #eee3c1; padding: 5px; width: 80%; margin: 0px auto 0.5em auto; background: #fff;}
+.left-box {border:1px solid #eee3c1; padding: 5px; width: 40%; float: left; margin: 0px 0.25em 0.25em 0px; background: #fff;}
+.right-box {border:1px solid #eee3c1; padding: 5px; width: 40%; float: right; margin: 0px 0px 0.25em 0.25em; background: #fff;}
+
+/* 2.LAYOUT */
+
+#layout {background: none; background-repeat: no-repeat;}
+#wrapper {position: relative; margin: 0px; padding: 0px; width: auto; min-width: inherit;}
+body.wide #wrapper {margin: 0px; padding: 0px; width: auto; min-width: inherit;}
+#container {clear: both; margin: 0px; padding: 0px;}
+body.nav #container, body.drawer #container {border-top: 1px solid #eae9e6;}
+#content {margin: 0px; position: relative; padding: 0px 5px 1em 5px; border-bottom: 1px solid #fff;}
+body.nav #content {margin: 0px;}
+body.portal #content {margin: 0px;}
+
+/* 1 column */
+#center {margin: 0px; padding: 0px; position: static; left: 0px;}
+
+/* 3 columns */
+body.two-sidebars #center {float: none; margin: 0px; padding: 0px; width: auto; border: none; position: static; left: 0px;}
+body.two-sidebars.wide #center {float: none; width: 100%; padding: 5px 0px; border-left: none; border-right: none; position: static; left: 0px;}
+body.two-sidebars #content {background-image: none; background-repeat: no-repeat;}
+body.two-sidebars.wide #content {background-image: none;}
+
+/* 2 columns - sidebar-left */
+body.sidebar-left #center {float: none; margin: 0px; padding: 0px; width: auto; border: none; position: static; left: 0px;}
+body.sidebar-left.wide #center {float: none; margin: 0px; padding: 5px 0px; width: auto; border-left: none; position: static; left: 0px;}
+body.sidebar-left #content {background-image: none; background-repeat: no-repeat;}
+body.sidebar-left #content #sidebar-right {display: none;}
+body.sidebar-left.wide #content {background-image: none;}
+
+/* 2 columns - sidebar-right */
+body.sidebar-right #center {float: none; margin: 0px; padding: 0px; width: auto; border: none; position: static; left: 0px;}
+body.sidebar-right.wide #center {float: none; margin: 0px; padding: 5px 0px; width: auto; border-right: none; position: static; left: 0px;}
+body.sidebar-right #content {background-image: none; background-repeat: no-repeat;}
+body.sidebar-right #content #sidebar-left {display: none;}
+body.sidebar-right.wide #content {background-image: none;}
+
+/* 3.SIDEBARS */
+.sidebar {width: auto; margin: 0px; padding: 0px;}
+.sidebar ul {margin: .35em 0 0.5em 0; padding: 0;}
+.sidebar ul ul {margin-left: 0;}
+.sidebar ul li {line-height: 1.4em; background: transparent url("https://www.stanford.edu/stanfordmodern/images/raquo.gif") no-repeat 0px .4em; list-style-image: none; list-style-type: none; margin: .15em 0 .15em 0; padding: 0 0 .4em 1em;}
+.sidebar ul li a {color: #565347;}
+.sidebar dl {margin: 0 0 1.5em 0; padding: 0; line-height: 1.5em;}
+.sidebar dl dt {margin: 0 0 0.25em 0; font-size: 1em;}
+.sidebar dl dd {margin: 0px 0px 1em 0px; font-size: 0.9em; line-height: 0.9em;}
+.sidebar p {margin: 0px 0px 1em 0px !important;}
+
+.sidebar ul.nav {margin: 0px -5px; padding: 0px; border-top: 1px solid #eae9e6;}
+.sidebar ul.nav li {display: block; list-style: none; list-style-image: none; background-image: none; padding: 0.25em 5px; margin: 0px; border-bottom: 1px solid #eae9e6;}
+.sidebar ul.nav li a {color: #565347; border-bottom: 1px dotted #81785a;}
+.sidebar ul.nav li a:hover {border-bottom: 1px dotted #565347;}
+.sidebar ul.nav li li{padding: 0.25em 5px; margin: 0px; border-bottom: 1px solid #eae9e6;}
+.sidebar ul.nav ul ul {margin: 0;}
+.sidebar ul.nav li.current a, .sidebar a.current {color: #820000; font-weight: normal;}
+
+#sidebar-left {display: none; float: none; margin: 0px; padding: 0.5em 0px; font-size: 1em; position: static; left: 0px;}
+body.two-sidebars #sidebar-left, body.sidebar-left #sidebar-left {display: block;}
+#sidebar-left h1, #sidebar-left h2 {font-size: 0.9em; line-height: 1.3em; color: #820000; margin: 0px 0px 8px 0px; padding: 0px; border-bottom: 3px solid #820000; letter-spacing: 1px; font-weight: normal; text-transform: uppercase;}
+body.wide #sidebar-left {width: 100%; padding: 0.5em 0px;}
+
+#sidebar-right {display: none; float: none; margin: 0px; padding: 0.5em 0px; font-size: 1em; background-image: none; background-repeat: no-repeat; background-position: 65% 98%; position: static; left: 0px;}
+body.two-sidebars #sidebar-right, body.sidebar-right #sidebar-right {display: block;}
+#sidebar-right h1, #sidebar-right h2 {font-size: 0.9em; line-height: 1.3em; color: #3f3c30; margin: 0px 0px 8px 0px; padding: 0px; border-bottom: 3px solid #3f3c30; letter-spacing: 1px; font-weight: normal; text-transform: uppercase;}
+body.wide #sidebar-right {width: 100%; margin: 0px; padding: 0.5em 0px; background-image: none; background-position: 50% 98%;}
+
+/* 4.HEADER */
+#header {background: url("https://www.stanford.edu/stanfordmodern/images/body_bg3.jpg"); background-repeat:repeat-x; background-position: left center; background-size: 100%; margin: 0 0 30px 0; padding: 10px; height: auto; min-width: inherit; width: auto; border-bottom: 0.25em solid #ddcf99;}
+#header #name a { font-size: 20px;}
+#header #logo img {width: 130px; max-width: 130px; height: auto;}
+/*#header #search {position: absolute; left: 0px; top: 100px; float: none; margin: 0px; padding: 0px; width: 200px; } */
+#header #search {float: left; margin: 20px 0 0 0; padding: 0; width: 200px; }
+#header #cse-search-box .searchbox { background: none;}
+#header #cse-search-box input { border: 1px solid #eee3c1; height: 20px; margin: 0; width: 165px;}
+body.two-line-header #name span {font-size: 1em;}
+
+
+/* 5.NAVIGATION */
+
+/* Navigation */
+#nav {display: none; clear: both; margin: 0px; padding: 0.5em 5px; width: auto; background-image: none; position: relative; min-width: inherit;}
+body.nav #nav {display: block;}
+body.wide #nav {margin: 0px;}
+body.drawer #nav {display: block; margin: 0px; padding: 0.5em 5px;}
+
+#nav ul {margin: 0px; padding: 0px;}
+body.wide #nav ul {margin: 0px;}
+#nav ul li {float: none; margin: 0px 0 10px 10px; padding: 0px; list-style-type: none; text-align: left; background-image: none; background-repeat:no-repeat;}
+body.drawer #nav ul li {margin: 0px 1em 0px 0px; width: auto; }
+#nav ul li a {float: none; display: inline; margin: 0 0 10px 0; padding: 0; text-decoration: none; font-size: 1.2em; height: auto; border: 0px; color: #565347; border-bottom: 1px dotted #81785a; letter-spacing: 0px;}
+#nav ul li a:hover {background-image: none; color: #820000; border-bottom: 1px dotted #565347;}
+#nav ul li.current a {color: #820000;}
+#nav ul li a.current {color: #820000;}
+
+#nav ul li ul {margin: 0px 0px 0.25em 0px; padding: 0px 0px 0.5em 0px; border-bottom: 1px solid #eae9e6;}
+#nav ul li ul li {display: block; float: none; list-style-type: none; background: transparent url("https://www.stanford.edu/stanfordmodern/images/raquo.gif") no-repeat 0px .5em; margin: 0px; padding: 0px 0px 0px 15px; letter-spacing: 0px; width: auto;}
+#nav ul li ul li a {font-size: 1em; letter-spacing: 0px;}
+#nav ul li.current ul li a {color: #565347;}
+
+/* Expanded Drawer */
+#nav_drawer {clear: both; display: none; margin: 0px; padding: 0px 0px 1em 0px; width: auto; min-width: inherit;}
+#nav_drawer ul {margin: 0px; padding: 0px; line-height: 1em;}
+#nav_drawer ul li {float: none; display: inline; list-style-type: none; background-image: none; background-repeat:no-repeat; margin: 0px; padding: 0px; width: auto;}
+#nav_drawer a {border-bottom: 1px dotted #81785a;}
+#nav_drawer ul li a {font-size: 1em; letter-spacing: 0px; line-height: 1em;}
+#nav_drawer ul li ul {margin: 0px; padding: 0px 5px 0.5em 5px;}
+#nav_drawer ul li ul li {float: none; display: inline; list-style-type: none; background-image: none; margin: 0px; padding: 0px 0.5em 0px 0px; letter-spacing: 0px; width: auto;}
+#nav_drawer ul li ul li a {font-size: 0.9em; letter-spacing: 0px; line-height: 1.5em;}
+
+/* Toggle Switch */
+#toggle {display: none; position: relative; top: auto; left: auto; float: left; margin: 0px; border: none; width: auto; font-size: 0.9em; line-height: 1em; outline: none;}
+body.drawer #toggle {display: inline; position: relative; top: auto; left: auto; padding: 0px 5px 5px 5px;}
+#toggle img {padding-top: 0px; margin-top: 0px; vertical-align: text-bottom; margin-right: 2px;}
+#toggle:hover {color: #820000;}
+#toggle a {border: 0px; outline: none;}
+#toggle #menu_expand {display: block; padding-left: 20px; height: 15px; background: url("https://www.stanford.edu/stanfordmodern/images/icon_expanded.jpg") 0px 0px no-repeat; cursor:pointer;}
+#toggle #menu_hide {display: none; padding-left: 20px; height: 15px; background: url("https://www.stanford.edu/stanfordmodern/images/icon_expanded.jpg") 0px 0px no-repeat; cursor:pointer;}
+
+/* 6.FOOTER */
+
+#footer-wrapper {clear: both; margin: 0px; padding: 0.5em 5px 3em 5px; background: #f6f3e5; border-top: 1px solid #eee3c1;}
+#footer {border-top: none; margin: 0px; padding: 0px; position: relative;}
+#footer a {border-bottom: 1px dotted #81785a;}
+#footer ul {text-align: left; margin: 0px; padding: 0px;}
+#footer ul li {display: inline; background: none; border-right: none; margin: 0px 1em 0px 0px; padding: 0px;}
+#footer ul li.last {border: 0px;}
+#footer ul li a {border-bottom: 1px dotted #81785a;}
+#footer ul li a:hover, #footer ul.menu li a:active {color: #820000;}
+#footer ul li a.active:hover, #footer ul.menu li a.active:active {color: #820000;}
+
+#copyright {text-align: left; font-size: 0.9em; margin: 0px; padding: 0.5em 0px;}
+#copyright a {border-bottom: 1px dotted #81785a;}
+
+/* 7.PAGE ELEMENTS */
+
+/* Introduction */
+p.introduction {width: auto; color: #8a887d; line-height: 1.2em; font-size: 1em; font-family: Georgia, "Times New Roman", Times, serif; font-style:italic; display: block;}
+
+/* More content */
+.more {clear: both; border-top: 1px solid #eae9e6; border-bottom: 1px solid #eae9e6; margin: 15px 0px; padding: 1px 0; width: 100%; text-align: right; color: #8a887d; letter-spacing: 1px;}
+.more a {border: none;}
+
+/* Breadcrumb */
+.breadcrumb {font-size: 0.9em; line-height: normal; height: auto; padding: 0px 0px 0.25em 0px; margin: 0;}
+.breadcrumb p {margin: 0; padding: 0; line-height: 15px; color: #3f3c30;}
+.breadcrumb ul {margin: 0px; padding: 0px}
+.breadcrumb li {display: inline; margin: 0; padding: 0 0 0 10px; color: #3f3c30; background: transparent url("https://www.stanford.edu/stanfordmodern/images/raquo.gif") no-repeat 0px .3em;}
+.breadcrumb li:first-child {margin-left: -10px; background-image: none;}
+.breadcrumb a {text-decoration: none; border-bottom: 1px dotted #81785a; color: #565347; font-weight: normal;}
+.breadcrumb a:hover, .breadcrumb a:active {color: #820000;}
+
+/* On this Page --------------------------------- */
+#onthispage {padding: 0px; margin: 0px; font-size: 0.9em; font-weight: normal;}
+#onthispage h1 {padding: 0px; margin: 0px; font-size: 1em; font-weight: bold;}
+#onthispage ul {list-style: none; padding: 0px; margin: 0px;}
+#onthispage li {list-style: none; display: inline; padding: 0px 1em 0px 0px; margin: 0px; background: transparent;}
+#onthispage li:before {font-weight: normal; content: "";}
+#onthispage li:first-child:before {font-weight: normal; content: "";}
+#onthispage a {font-weight: normal;}
+ 
+/* Last Modified */
+.last-modified {clear: both; font-size: 0.9em; padding-top: 2em;}
+
+/* 8.CSS SUPPORT */
+
+.imagetall {display: none; float: right; margin: 0px 0px 0.5em 0.5em; padding: 0px; background-image: none; background-repeat: no-repeat; width: 30%; border: 1px solid #eee3c1;}
+.imagewide {display: none; float: right; margin: 0px 0px 0.5em 0.5em; padding: 0px; background-image: none; background-repeat: no-repeat; width: 30%; border: 1px solid #eee3c1;}
+
+/* 9.CSS BLOCK IMAGE SETS */
+.sidebar .calendar, .sidebar .computing, .sidebar .contact, .sidebar .document, .sidebar .download, .sidebar .email, .sidebar .faq, .sidebar .forms, .sidebar .medical, .sidebar .people, .sidebar .see-also, .sidebar .video, .sidebar .login, .sidebar .admin, .sidebar .navigate, .sidebar .users, .sidebar .search {margin: 0px; padding: 0px; background-image: none; background-repeat: no-repeat;}
+
+/* 10.MediaLinks */
+a.external, a[href$='.pdf'], a[href$='.doc'], a[href$='.docx'], a[href$='.xls'], a[href$='.ppt'] {background-image: none; padding-right: 0px;}
+a.external:focus, a.external:hover, a[href$='.pdf']:focus, a[href$='.pdf']:hover, a[href$='.doc']:focus, a[href$='.doc']:hover, a[href$='.docx']:focus, a[href$='.docx']:hover, a[href$='.xls']:focus, a[href$='.xls']:hover, a[href$='.ppt']:focus, a[href$='.ppt']:hover {background-image: none;}
+
+/* 11.Advanced Styles */
+
+/* Topic Page */
+body.topic .breadcrumb {border: 0px; margin: 0px 0px 2px 0px; padding: 0px;}
+body.wide .topic_content {width: auto;}
+.topic_section {position: relative; clear: both; width: 100%; border-top: 3px solid #820000; margin: 0 0 0.5em 0; padding: 0; font-size: 1em;}
+#center .topic_section img {float: none; position: absolute; top: 5px; left: 0; margin: 5px; padding: 0px; background-image: none; height: 2.5em !important; width: 2.5em !important; border: 1px solid #c4bfa9;}
+.topic_content {float: left; margin: 0px; padding: 5px; width: auto; background: #fff; min-height: 0px;}
+.topic_content h3 {margin: 0.5em 0px 1em 3em; color: #000; line-height: 1.5em;}
+.topic_content p {position: absolute; left: -1000em; width: 20em; text-align: left; margin: 0px;}
+.topic_links {float: none; width: auto; clear: both; margin: 0; padding: 0; min-height: 1px; border-left: 0px solid #eae9e6;}
+.topic_links li {margin: 0px 0px 0px 25px; padding-bottom: 0.5em; list-style-image: url("https://www.stanford.edu/stanfordmodern/images/raquo.gif"); line-height: 1.2em;}
+
+/* Portal Page */
+body.portal #sidebar-right {background-image: none; padding-bottom: 0px;}
+#portal_left  {float: none; width: auto; margin: 0px; padding: 0px; font-size: 0.9em;}
+#portal_left h2 {font-size: 1em; line-height: 1.3em; color: #820000; margin: 0px 0px 8px 0px; padding: 0px; border-bottom: 3px solid #820000; letter-spacing: 2px; font-weight: normal; text-transform: uppercase;}
+#portal_left .more {font-size: 0.9em;}
+#portal_center { margin: 0; padding: 0px; float: none; width: auto;  border-left: none; font-size: 0.9em;}
+#portal_center h2 {font-size: 1em; line-height: 1.3em; color: #820000; margin: 0px 0px 8px 0px; padding: 0px; border-bottom: 3px solid #820000; letter-spacing: 2px; font-weight: normal; text-transform: uppercase;}
+#portal_center .more {font-size: 0.9em;}
+
+#banner {margin: 0.5em 0}
+/* Style for spotlight feature image - determines distance between photo and background drop shadow */
+.image_banner {margin: 0px; padding: 0px; border: 1px solid #eee3c1; background: none;}
+/* Style for news images - determines distance between photo and background drop shadow */
+.image_news {margin: 0px; padding: 0px; border: 1px solid #eee3c1; background: none;}
+
+/* Event Section */
+#event_section {margin: 0.5em 0px; padding: 0px;}
+#event_section h3 {margin: 0px; padding: 0px;}
+#event_section .event_container {margin: 0px; padding: 0px;}
+#event_section .event_list {margin: 0px 0px 0px 40px; padding: 0px; border-left: 1px solid #eae9e6;}
+#event_section .event_list p {margin: 0px 0px 1em 1px; padding: 0px 0px 0px 10px; background: #fff;}
+#event_section .event_time {display: block; color: #820000; margin: 2px 0px 0px 0px;}
+#event_section .event_month {clear: left; float: left; color: #820000; font-size: 0.8em; display: block; font-family: Georgia,Times New Roman,Times; margin: 0px;}
+#event_section .event_day {clear: left; float: left; font-family: Georgia,Times New Roman,Times; font-size: 1.2em; line-height: none; color: #565347;}
+#event_section img {max-width: 149px;}
+
+/* News Section */
+#news_section {float: none; width: auto; margin: 0.5em 0px; padding: 0px; border-right: none;}
+#news_section h3 {margin: 0.25em 0px 0.5em 0px;}
+#news_section h3 a { color: #3F3C30 }
+#news_section p { font-size: 1em; }
+#news_section hr {margin: 0px 0px 1em 0px;}
+#news_section a:hover { color: #820000 }
+img.image_news {clear: left; float: left; margin: 0px 0.5em 0.5em 0px; width: 30%; max-width: 139px;}
+
+/* Seal Section */
+#seal {display: none; float: none; width: 150px; height: 320px; padding: 0px; margin: 0px; background: none;}
+
+/* Extras */
+.mobilehide {display: none;}
