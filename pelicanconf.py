@@ -22,12 +22,18 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 
 # Copy some files over...
-# FILES_TO_COPY = (('apache-htaccess', '.htaccess'),)
+FILES_TO_COPY = (('favicon.ico', 'favicon.ico'),)
+
+# Wed 24 Dec 2013, for example
+DEFAULT_DATE_FORMAT = '%a %d %b %Y'
+
+# Filename Metadata: YYYY-MM-DD-the-rest-before-the-dot-is-the-slug.md, for example
+FILENAME_METADATA = '(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'
 
 # Had to do this because the README.md was confusing Pelican...
 PAGE_DIR = ('pages')
 ARTICLE_DIR = ('posts')
-ARTICLE_EXCLUDES = (('pages','.'))
+ARTICLE_EXCLUDES = (('pages', '.'))
 
 # My theme ignores some templates, so here they are...
 ARTICLE_URL = '%s/posts/{slug}.html' % SITEURL_SUFFIX
@@ -45,4 +51,5 @@ MONTH_ARCHIVE_SAVE_AS = False
 DAY_ARCHIVE_SAVE_AS = False
 
 # Themes
-THEME = 'themes/marcelo'
+# THEME = 'themes/marcelo'
+THEME = 'themes/marcelo3'

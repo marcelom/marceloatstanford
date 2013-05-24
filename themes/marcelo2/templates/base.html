@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		{% if FEED_ALL_ATOM %}
+		<link href="{{FEED_DOMAIN}}/{{FEED_ALL_ATOM}}" type="application/atom+xml" rel="alternate" title="{{SITENAME}} Atom Feed" />
+		{% endif %}
+		<title>{% block title %}{{SITENAME}}{% endblock title %}</title>
+		<meta name="author" content="{{AUTHOR}}">
+		<link rel="stylesheet" href="{{SITEURL_SUFFIX}}/theme/css/core.css" type="text/css">
+	</head>
+
+	<body>
+		<div id="wrapper">
+
+			<div id="sitename" class="clear">
+				<!-- YOUR SITE NAME -->
+				<h1><a href="#">dynamic</a></h1>
+			</div>
+
+			<div id="navbar">
+				<div class="clear">
+					<ul class="sf-menu clear">
+						<!-- PAGE NAVIGATION -->
+						<li class="selected">
+							<a href="index.html"><span>home</span></a>
+						</li>
+						<li>
+							<a href="examples.html"><span>examples</span></a>
+						</li>
+						<li>
+							<a href="blog.html"><span>blog</span></a>
+						</li>
+						<li>
+							<a href="#"><span>products</span></a>
+						</li>
+						<li>
+							<a href="#"><span>portfolio</span></a>
+						</li>
+						<li>
+							<a href="#"><span>support</span></a>
+						</li>
+						<li>
+							<a href="#"><span>contact</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="header" class="clear">
+				<div class="header-text">
+					<h2><strong>Pellentesque</strong> habitant morbi tristique </h2>
+					<p>
+						Pellentesque sit amet odio eget ipsum tempor ultricies. Maecenas tempor massa turpis. Aenean euismod, dui et porttitor euismod, arcu erat pellentesque erat, eu tincidunt diam lacus ac nisi.
+					</p>
+
+					<p class="header-buttons">
+						<a href="#" class="button pngfix">Preview</a>
+						<a href="#" class="button color-button pngfix">Purchase</a>
+					</p>
+
+				</div>
+				<div class="header-images">
+					<img src="images/slide-1.jpg" alt="Slide #1" width="250" height="154">
+				</div>
+
+			</div>
+			<div class="header-bottom"></div>
+
+			<div id="body-wrapper">
+
+				<!-- BREADCRUMB NAVIGATION -->
+				<div class="bcnav">
+					<div class="bcnav-left">
+						<div class="bcnav-right clear">
+							<h3>you are here:</h3>
+							<ul class="bcnavlist">
+								<li>
+									<a href="#">home</a>
+								</li>
+								<li>
+									/
+								</li>
+								<li>
+									<a href="#">products</a>
+								</li>
+								<li>
+									/
+								</li>
+								<li>
+									widget
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div id="body" class="clear">
+
+					<div class="clear">
+						<div class="column column-650 column-left">
+							<h2>Introduction</h2>
+
+							<p>
+								Welcome to fantasy, a free valid CSS &amp; XHTML strict web template from <a href="http://www.spyka.net" title="spyka webmaster">spyka Webmaster</a>. This template is <strong>free</strong> to use permitting a link remains back to <a href="http://www.spyka.net" title="spyka webmaster">http://www.spyka.net</a>. Should you wish to use this template unbranded you can buy a template license from our website for 5.00 GBP, this will allow you remove all branding related to our site, for more information about this see below.
+							</p>
+
+							<p>
+								This template has been tested in:
+							</p>
+							<ul>
+
+								<li>
+									Firefox 3.5
+								</li>
+								<li>
+									Opera 10.00
+								</li>
+								<li>
+									IE 7 and 8
+								</li>
+								<li>
+									Chrome
+								</li>
+
+							</ul>
+
+							<h3>Buy unbranded</h3>
+
+							<p>
+								Purchasing a template license for 5.00 GBP (at time of writing around 7.40 USD) gives you the right to remove any branding including links, logos and source tags relating to spyka webmaster. Payments are processed using paypal, with which we are a verified member, via the licensing page on our website which can be accessed at <a href="http://www.spyka.net/licensing" title="template license">http://www.spyka.net/licensing</a>
+							</p>
+
+							<h3>More free web templates</h3>
+							<p>
+								Looking for more free web templates for other projects? Check out our <a href="http://justfreetemplates.com/portfolio?user=spyka">free web template portfolio</a>. We also offer <a href="http://www.spyka.net/wordpress-themes">WordPress themes</a> and <a href="http://www.awesomestyles.com">phpBB3 styles</a>, all of which are released under Open Source or Creative Commons licenses!
+							</p>
+
+							<h3>Webmaster forums</h3>
+
+							<p>
+								You can get help with editing and using this template, as well as design tips, tricks and advice in our <a href="http://www.spyka.net/forums" title="webmaster forums">webmaster forums</a>
+							</p>
+						</div>
+						<div id="sidebar" class="column column-240 column-right">
+							<ul>
+								<li>
+
+									<h4>Links</h4>
+
+									<ul>
+										<li>
+											<a href="http://www.spyka.net" title="spyka Webmaster resources">spyka webmaster</a>
+										</li>
+										<li>
+											<a href="http://www.justfreetemplates.com" title="free web templates">Free web templates</a>
+										</li>
+										<li>
+											<a href="http://www.spyka.net/forums" title="webmaster forums">Webmaster forums</a>
+										</li>
+										<li>
+											<a href="http://www.awesomestyles.com/mybb-themes" title="mybb themes">MyBB themes</a>
+										</li>
+
+										<li>
+											<a href="http://www.awesomestyles.com" title="free phpbb3 themes">phpBB3 styles</a>
+										</li>
+									</ul>
+								</li>
+
+								<li>
+
+									<h4>Categories</h4>
+									<ul>
+										<li>
+											<a href="#">Lorem ipsum dolor sit amet.</a>
+										</li>
+
+										<li>
+											<a href="#">Quisque consequat nunc a felis.</a>
+										</li>
+										<li>
+											<a href="#">Suspendisse consequat magna at.</a>
+										</li>
+										<li>
+											<a href="#">Etiam eget diam id ligula rhoncus.</a>
+										</li>
+										<li>
+											<a href="#">Sed in mauris non nibh.</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+
+									<h4>Sponsors</h4>
+
+									<ul>
+
+										<li>
+											<a href="http://www.themeforest.net/?ref=spykawg" title="premium templates"><strong>ThemeForest</strong></a> - premium HTML templates, WordPress themes and PHP scripts
+										</li>
+										<li>
+											<a href="http://www.dreamhost.com/r.cgi?259541" title="web hosting"><strong>Web hosting</strong></a> - 50 dollars off when you use promocode <strong>awesome50</strong>
+										</li>
+										<li>
+											<a href="http://www.4templates.com/?aff=spykawg" title="4templates"><strong>4templates</strong></a> - brilliant premium templates
+										</li>
+
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- end three column -->
+
+				</div>
+
+			</div>
+
+			<div id="footer">
+				<p>
+					© 2009. Design by <a href="http://www.spyka.net">Free CSS Templates</a> &amp; <a href="http://www.justfreetemplates.com">Free Web Templates</a>
+				</p>
+			</div>
+
+		</div>
+
+	</body>
+</html>
+

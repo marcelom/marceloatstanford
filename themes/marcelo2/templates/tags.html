@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}{{ SITENAME }}, Tags{%endblock%}
+{% block content %}
+{% if tags %}
+<div class="archive">
+	<div class="post">
+		<h1 class="title">Tag List</h1>
+	</div>
+	{% for tag, articles in tags|sort %}
+	<div class="post">
+		<h2 class="title"><a href="{{ tag.url }}">{{tag}}</a></h2>
+		<div class="body">
+			{{articles|count}} articles under this tag
+			{% for article in articles %}
+			&raquo; <a href="{{ article.url }}">{{article.title}}</a>
+			{% endfor %}
+		</div>
+	</div>
+	{% endfor %}
+</div>
+{% endif %}
+{% endblock %}

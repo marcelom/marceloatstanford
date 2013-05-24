@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+{% if articles %}
+<div id="post">
+	<div class="date">
+		{{ articles[0].locale_date }}
+	</div>
+	<h1><a href="{{ articles[0].url }}">{{articles[0].title}}</a></h1>
+	{{articles[0].content}}
+</div>
+{% endif %}
+{% endblock %}

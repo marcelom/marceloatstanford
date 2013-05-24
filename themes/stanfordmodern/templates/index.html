@@ -1,26 +1,33 @@
 {% extends "base.html" %}
 {% block content %}
-
 {% if articles %}
-
-<div class="post">
-
-	<!--<h1 class="title"><a href="{{ SITEURL }}/{{ articles[0].url }}">{{articles[0].title}}</a></h1>-->
-	<h1 class="title"><a href="{{ articles[0].url }}">{{articles[0].title}}</a></h1>
-	<div class="date">
-		{{ articles[0].locale_date }}
-	</div>
-	<div class="body">
-		<!--By <a href="{{ SITEURL }}/{{ articles[0].author.url }}">{{ articles[0].author }}</a>
-		{{articles[0].summary}}-->
+<h1 class=""><a href="{{articles[0].url}}">{{articles[0].title}}</a></h1>
+<div id="content">
+	<div id="center">
+		<div id="dateandtags" style="
+		float: left;
+		margin-left: -120px;
+		border-right: 1px solid #d0d0d0;
+		width: 100px;
+		">
+			{{ articles[0].date.strftime("%a
+			<br>
+			%d
+			<br>
+			%b
+			<br>
+			%Y") }}
+			<ul>
+				<li>
+					tag1
+				</li>
+				<li>
+					tag2
+				</li>
+			</ul>
+		</div>
 		{{articles[0].content}}
 	</div>
-
-	<div class="feedback">
-		<a href="/contact.html">Contact me</a>.
-	</div>
 </div>
-
 {% endif %}
-
 {% endblock %}
