@@ -1,0 +1,8 @@
+draft...
+
+cd /opt/
+tar -xvzf /home/marcelom/Downloads/jre-7u21-linux-x64.tar.gz
+chown -R root:root jre1.7.0_21/
+update-alternatives --install "/usr/bin/java" "java" "/opt/jre1.7.0_21/bin/java" 1
+update-alternatives --set java /opt/jre1.7.0_21/bin/java
+java -version
