@@ -1,11 +1,21 @@
 {% extends "base.html" %}
 {% block content %}
 {% if articles %}
-<div id="post">
-	<div class="date">
-		{{ articles[0].locale_date }}
+<div id="{{articles[0].slug}}" class="post">
+	<div class="title">
+		<img src="{{SITEURL_SUFFIX}}/theme/img/email.png"><img src="theme/img/fb_1.png"><img src="theme/img/google_plus.png"><img src="theme/img/linkedin.png"><img src="theme/img/twitter_2.png">
+		<p>
+			Published on {{ articles[0].locale_date }} &mdash;
+			{% for tag in articles[0].tags %}
+			{% if loop.first %}
+			Tags: <a href="{{tag.url}}">{{tag}}</a>
+			{% else %}
+			&middot; <a href="{{tag.url}}">{{tag}}</a>
+			{% endif %}
+			{% endfor %}
+		</p>
+		<h1><a href="{{ articles[0].url }}">{{articles[0].title}}</a></h1>
 	</div>
-	<h1><a href="{{ articles[0].url }}">{{articles[0].title}}</a></h1>
 	{{articles[0].content}}
 </div>
 {% endif %}
