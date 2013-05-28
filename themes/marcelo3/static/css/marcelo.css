@@ -58,11 +58,12 @@ blockquote p {
  }*/
 
 a {
-	color: #4B254B;
+	color: inherit;
+	text-decoration: inherit;
 }
 
 a:hover {
-	color: #6F516F;
+	text-decoration: underline;
 }
 
 a:focus {
@@ -109,18 +110,15 @@ form input.formbutton {
 }
 
 span.required {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
 	color: #ff0000;
 }
 
 h1 {
-	/*color: #999;*/
 	font-size: 35px;
 }
 
 h2 {
 	color: #4B254B;
-	/*	font-family: Georgia, "Times New Roman", Times, serif;*/
 	font-size: 33px;
 	font-weight: normal;
 	letter-spacing: -2px;
@@ -177,7 +175,7 @@ li ol, li ul {
 	font-size: 50px;
 	font-weight: normal;
 	text-decoration: none;
-	text-shadow: 2px 2px darkgrey;
+	text-shadow: 1px 1px darkgrey;
 }
 
 #navigation {
