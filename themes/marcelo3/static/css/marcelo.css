@@ -1,11 +1,11 @@
 body {
-	background: #4B254B;
+	background: #383838;
 	margin: 0;
 	padding: 0;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 13px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	/*font-size: 13px;*/
+	font-size: 62.5%;
 	color: #555555;
-	border-top: 5px solid #4B254B;
 }
 
 * {
@@ -53,9 +53,9 @@ blockquote p {
 }
 
 /*p {
-	line-height: 1.9em;
-	margin-bottom: 20px;
-}*/
+ line-height: 1.9em;
+ margin-bottom: 20px;
+ }*/
 
 a {
 	color: #4B254B;
@@ -172,16 +172,16 @@ li ol, li ul {
 }
 
 #header h1 a {
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	color: #fff;
 	font-size: 50px;
 	font-weight: normal;
 	text-decoration: none;
-	letter-spacing: -3px;
+	text-shadow: 2px 2px darkgrey;
 }
 
 #navigation {
-	background: rgb(45, 24, 61);
+	background: #585858;
 	height: 35px;
 	border-radius: 12px;
 }
@@ -206,15 +206,11 @@ li ol, li ul {
 	font-size: 11px;
 	text-transform: uppercase;
 	text-decoration: none;
-	border-right: 1px solid #8E678E;
-	border-left: 1px solid #533C53;
+	border-left: 1px solid gray;
 }
 
 #navigation ul li.item-left a {
 	border-left: none;
-}
-#navigation ul li.item-right a {
-	border-right: none;
 }
 
 #navigation ul li.selected a, #navigation ul li.selected a:hover {
