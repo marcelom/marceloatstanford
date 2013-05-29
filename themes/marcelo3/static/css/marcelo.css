@@ -2,10 +2,10 @@ body {
 	background: #383838;
 	margin: 0;
 	padding: 0;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	/*font-size: 13px;*/
 	font-size: 14px;
-	color: #555555;
+	color: black;
 }
 
 * {
@@ -170,14 +170,14 @@ li ol, li ul {
 	font-size: 50px;
 	font-weight: normal;
 	text-decoration: none;
-	text-shadow: 1px 1px darkgrey;
+	text-shadow: 2px 2px lightgrey;
 }
 
 #navigation {
 	background: #585858;
 	height: 40px;
 	border-radius: 12px;
-	font-size: 15px;
+	font-size: 12px;
 	text-transform: uppercase;
 	text-decoration: none;
 }
@@ -221,11 +221,13 @@ div.post div.title {
 	padding: 6px;
 	border-radius: 10px;
 	border: 1px solid lightgray;
-	font-size: 12px;
+	font-size: 10px;
+	margin-bottom: 12px;
 }
 
 div.post div.title h1 {
 	font-weight: bold;
+	text-shadow: 2px 2px lightgray;
 }
 
 div.post div.title img {

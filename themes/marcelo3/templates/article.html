@@ -3,39 +3,21 @@
 {% block content %}
 <div id="{{article.slug}}" class="post">
 	<div class="title">
-		<img src="{{SITEURL_SUFFIX}}/theme/img/email.png"><img src="theme/img/fb_1.png"><img src="theme/img/google_plus.png"><img src="theme/img/linkedin.png"><img src="theme/img/twitter_2.png">
+		<img src="{{SITEURL_SUFFIX}}/theme/img/twitter_2.png">
+		<img src="{{SITEURL_SUFFIX}}/theme/img/linkedin.png">
+		<img src="{{SITEURL_SUFFIX}}/theme/img/email.png">
+		<a title="share on Facebook" href="http://www.facebook.com/sharer.php?u={{SITEURL}}{{article.url}}"><img src="{{SITEURL_SUFFIX}}/theme/img/fb_1.png"></a>
+		<a title="share on Google+" href="http://plus.google.com/share?url={{SITEURL}}{{article.url}}"><img src="{{SITEURL_SUFFIX}}/theme/img/google_plus.png"></a>
 		<p>
-			Published on {{ article.locale_date }} &mdash;
-			{% for tag in article.tags %}
-			{% if loop.first %}
-			Tags: <a href="{{tag.url}}">{{tag}}</a>
-			{% else %}
-			&middot; <a href="{{tag.url}}">{{tag}}</a>
-			{% endif %}
+			<a href="{{article.url}}">Permalink</a>  &mdash;
+			Posted on {{ articles[0].locale_date }}, under:
+			{% for tag in articles[0].tags %}
+			<a href="{{tag.url}}">{{tag}}</a>{% if not loop.last %} &bull; {% endif %}
 			{% endfor %}
 		</p>
 		<h1>{{article.title}}</h1>
 	</div>
-	{{article.content}}
-	<div id="disqus_thread"></div>
-	<script type="text/javascript">
-		/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-		var disqus_shortname = 'marceloatstanford';
-		// required: replace example with your forum shortname
-
-		/* * * DON'T EDIT BELOW THIS LINE * * */
-		(function() {
-			var dsq = document.createElement('script');
-			dsq.type = 'text/javascript';
-			dsq.async = true;
-			dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-		})();
-	</script>
-	<noscript>
-		Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-	</noscript>
-	<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
+	<span>{{article.content}}</span>
+	{% include 'disqus.html' %}
 </div>
 {% endblock %}

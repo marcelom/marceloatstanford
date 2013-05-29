@@ -16,10 +16,10 @@ FEED_ALL_ATOM = 'atom.xml'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
-DEFAULT_PAGINATION = 10
+DISQUS_SHORTNAME = 'marceloatstanford'
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+RELATIVE_URLS = False
 
 # Copy some files over...
 FILES_TO_COPY = (('favicon.ico', 'favicon.ico'),)
