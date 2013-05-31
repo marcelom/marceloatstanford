@@ -1,6 +1,6 @@
 Title: About Me
 Date: 2013-05-22 10:25
-Slug: about
+Slug: aboutme
 Author: Marcelo Moreira
 Summary: (Almost) All about me...
 
@@ -24,3 +24,10 @@ Besides, if you're reading this, you're probably a friend whom I somehow managed
 
  * [Redhat Linux](http://www.redhat.com) - use it at work because sometimes I just have to. Seriously, not a big fan...
  * [Ruby](http://www.ruby-lang.org) - some of the folks I work with are crazy for it.
+
+# Contact
+
+You can find me on [StanfordWho](https://stanfordwho.stanford.edu/SWApp/detailAction.do?search=marcelo%20moreira&key=DR941B955).
+
+If you are a Stanford affiliate, make sure you are logged in and you will be able to see my email and phone information as well.
+
