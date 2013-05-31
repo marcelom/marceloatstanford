@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+{% if articles %}
+<div id="{{articles[0].slug}}" class="post">
+	<div class="title">
+		<img src="{{SITEURL_SUFFIX}}/theme/img/twitter_2.png">
+		<img src="{{SITEURL_SUFFIX}}/theme/img/linkedin.png">
+		<img src="{{SITEURL_SUFFIX}}/theme/img/email.png">
+		<a title="share on Facebook" href="http://www.facebook.com/sharer.php?u={{SITEURL}}{{articles[0].url}}"><img src="{{SITEURL_SUFFIX}}/theme/img/fb_1.png"></a>
+		<a title="share on Google+" href="http://plus.google.com/share?url={{SITEURL}}{{articles[0].url}}"><img src="{{SITEURL_SUFFIX}}/theme/img/google_plus.png"></a>
+		<p>
+			<a href="{{articles[0].url}}">Permalink</a>  &mdash;
+			Posted on {{ articles[0].locale_date }}, under:
+			{% for tag in articles[0].tags %}
+			<a href="{{tag.url}}">{{tag}}</a>{% if not loop.last %} &bull; {% endif %}
+			{% endfor %}
+		</p>
+		<h1><a href="{{ articles[0].url }}">{{articles[0].title}}</a></h1>
+	</div>
+	<span>{{articles[0].content}}</span>
+	{{SITEURL}}
+</div>
+{% endif %}
+{% endblock %}

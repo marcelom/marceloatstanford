@@ -51,5 +51,4 @@ MONTH_ARCHIVE_SAVE_AS = False
 DAY_ARCHIVE_SAVE_AS = False
 
 # Themes
-# THEME = 'themes/marcelo'
-THEME = 'themes/marcelo3'
+THEME = 'themes/marcelo'
