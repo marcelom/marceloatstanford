@@ -64,6 +64,7 @@ body {
 
 #footer p {
 	text-align: center;
+	padding-top: 15px;
 }
 
 #content div.title p a, #footer p a {
