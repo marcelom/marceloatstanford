@@ -6,6 +6,7 @@
 body {
 	background-color: white;
 	color: black;
+	font: 16px sans-serif;
 }
 
 #container {
@@ -15,14 +16,14 @@ body {
 
 #header {
 	margin: 0 0 10px;
-	padding: 10px;
+	padding: .5em;
 	background: black;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: .6em;
+	border-bottom-right-radius: .6em;
 }
 
 #header h1 {
-	font-size: 45px;
+	font-size: 2.8em;
 	text-align: center;
 }
 
@@ -36,18 +37,22 @@ body {
 #header nav {
 	text-align: center;
 	font-style: italic;
-	font-size: 16px;
+	font-size: .9em;
 }
 
 #header nav a:link, #header nav a:visited {
 	display: inline-block;
-	padding: 5px;
+	padding: .2em .4em .2em;
 	text-decoration: none;
 	color: lightgray;
 }
 
 #header nav a:hover, #header nav a:active {
 	text-decoration: underline;
+}
+
+#content div.title {
+	padding-bottom: 1em;
 }
 
 #content div.title img {
@@ -58,19 +63,17 @@ body {
 }
 
 #content div.title p, #footer p {
-	font-size: 10px;
-	font-family: sans-serif;
+	font-size: .6em;
 }
 
 #footer p {
 	text-align: center;
-	padding-top: 15px;
+	padding-top: 1em;
 }
 
 #content div.title p a, #footer p a {
 	font-style: italic;
 	color: black;
-	text-decoration: none;
 }
 
 #content div.title p a:hover, #footer p a:hover {
@@ -78,20 +81,49 @@ body {
 }
 
 #content div.title h1 {
-	font-size: 40px;
-	font-family: sans-serif;
+	font-size: 2.4em;
 	font-style: italic;
-	text-shadow: 1px 1px lightgray;
-	/*padding: 10px 0 10px;*/
-	padding-bottom: 14px;
 }
 
 #content div.title h1 a {
 	font-style: italic;
 	color: black;
 	text-decoration: none;
+	text-shadow: 1px 1px lightgray;
 }
 
 #content div.title h1 a:hover {
 	text-decoration: underline;
 }
+
+.articlecontent {
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+.articlecontent ul, .articlecontent ol {
+	padding: 1em 0 1em 3em;
+}
+
+.articlecontent ul {
+	list-style: disc
+}
+
+.articlecontent ol {
+	list-style: decimal
+}
+
+.articlecontent h1 {
+	padding: .8em 0 .5em;
+	font-size: 2.1em;
+	font-style: italic;
+	text-shadow: 1px 1px lightgray;
+}
+
+.articlecontent h2 {
+	padding: .8em 0 .5em;
+	font-size: 1.8em;
+	font-style: italic;
+	text-shadow: 1px 1px lightgray;
+}
+
