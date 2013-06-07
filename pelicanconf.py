@@ -39,8 +39,8 @@ ARTICLE_EXCLUDES = ('pages', '.')
 
 # My theme ignores some templates, so here they are...
 DIRECT_TEMPLATES = ('index',)  # Just index, nothing else...
-ARTICLE_URL = '%s/posts/{slug}.html' % SITEURL_SUFFIX
-ARTICLE_SAVE_AS = 'posts/{slug}.html'
+ARTICLE_URL = '%s/posts/{date:%%Y}-{date:%%m}-{date:%%d}-{slug}.html' % SITEURL_SUFFIX
+ARTICLE_SAVE_AS = 'posts/{date:%Y}-{date:%m}-{date:%d}-{slug}.html'
 ARTICLE_LANG_SAVE_AS = False  # Dsiables LANG processing, all site is in English...
 PAGE_URL = '%s/pages/{slug}.html' % SITEURL_SUFFIX
 PAGE_SAVE_AS = 'pages/{slug}.html'
