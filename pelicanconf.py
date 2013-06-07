@@ -25,7 +25,8 @@ RELATIVE_URLS = False
 FILES_TO_COPY = (('favicon.ico', 'favicon.ico'),)
 
 # Wed 24 Dec 2013, for example
-DEFAULT_DATE_FORMAT = '%a %d %b %Y'
+#DEFAULT_DATE_FORMAT = '%a %d %b %Y'
+DEFAULT_DATE_FORMAT = '%d %b %Y'
 
 # Filename Metadata: YYYY-MM-DD-the-rest-before-the-dot-is-the-slug.md, for example
 FILENAME_METADATA = '(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'

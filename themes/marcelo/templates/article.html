@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}{{ SITENAME }}, {{ article.title }}{%endblock%}
+{% block content %}
+
+<div id="post">
+	<h1>{{article.title}}</h1>
+	<p class="meta">
+		Posted on {{ articles[0].locale_date }} &mdash; <a href="{{article.url}}">Permalink</a>
+	</p>
+	{{ article.content }}
+</div>
+
+<!-- <div id="{{article.slug}}" class="post">
+<div class="title">
+<img src="{{SITEURL_SUFFIX}}/theme/img/twitter_2.png">
+<img src="{{SITEURL_SUFFIX}}/theme/img/linkedin.png">
+<img src="{{SITEURL_SUFFIX}}/theme/img/email.png">
+<a title="share on Facebook" href="http://www.facebook.com/sharer.php?u={{SITEURL}}{{article.url}}"><img src="{{SITEURL_SUFFIX}}/theme/img/fb_1.png"></a>
+<a title="share on Google+" href="http://plus.google.com/share?url={{SITEURL}}{{article.url}}"><img src="{{SITEURL_SUFFIX}}/theme/img/google_plus.png"></a>
+<p>
+<a href="{{article.url}}">Permalink</a>  &mdash;
+Posted on {{ articles[0].locale_date }}, under:
+{% for tag in articles[0].tags %}
+<a href="{{tag.url}}">{{tag}}</a>{% if not loop.last %} &bull; {% endif %}
+{% endfor %}
+</p>
+<h1>{{article.title}}</h1>
+</div>
+<span>{{article.content}}</span>
+{****% include 'disqus.html' %}
+</div>-->
+{% endblock %}
+
+<!--
+<div id="post">
+{{ content }}
+</div>
+
+<div id="related">
+<h2>Related Posts</h2>
+<ul class="posts">
+{***% for post in site.related_posts limit:3 %}
+<li><span>{***{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{***% endfor %}
+</ul>
+</div> -->
