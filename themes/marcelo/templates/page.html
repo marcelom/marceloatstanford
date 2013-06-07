@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}{{ SITENAME }}, {{ page.title }}{%endblock%}
+{% block content %}
+<div id="post">
+	<h1>{{page.title}}</h1>
+	<p class="meta">
+		Posted on {{ page.locale_date }}
+	</p>
+	{{ page.content }}
+</div>
+{% endblock %}
