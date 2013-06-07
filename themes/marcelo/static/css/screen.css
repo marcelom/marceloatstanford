@@ -167,3 +167,10 @@ ul.posts span {
 
 #post {
 }
+
+/* standard */
+
+#post ul, #post ol {
+	/*margin-left: 1.35em;*/
+	margin: 1em 0 1em 2em;
+}
