@@ -1,7 +1,5 @@
 Title: VMware Tools on Ubuntu
-Date: 2010-10-21 10:43
 Tags: Vmware, Vmware Tools, Ubuntu
-Slug: vmwaretoolsonubuntu
 Author: Marcelo Moreira
 Summary: Installing VMware Tools on Ubuntu
 

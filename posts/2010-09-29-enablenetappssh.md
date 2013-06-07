@@ -1,7 +1,5 @@
 Title: Enabling SSH on a Netapp filer
-Date: 2010-9-29 15:28
 Tags: Netapp
-Slug: enablenetappssh
 Author: Marcelo Moreira
 Summary: How to enable ssh on the netapp filer
 

@@ -1,7 +1,5 @@
 Title: Pocket Survival Guide: Netapp
-Date: 2010-9-29 9:55
 Tags: Pocket Survival Guide, Netapp
-Slug: psgnetapp
 Author: Marcelo Moreira
 Summary: PSG for Netapp: Dont leave home without it...
 

@@ -1,7 +1,5 @@
 Title: Run `cmd.exe` as another user
-Date: 2013-04-22 09:34
 Tags: Windows
-Slug: cmdexerunas
 Author: Marcelo Moreira
 Summary: How to get a command line in windows as another user
 

@@ -1,7 +1,5 @@
 Title: Postfix Encrypted SMTP
-Date: 2010-04-14 8:22
 Tags: Postfix, SMTP
-Slug: postfixencryptedsmtp
 Author: Marcelo Moreira
 Summary: Enabling encrypted SMTP on postfix
 
