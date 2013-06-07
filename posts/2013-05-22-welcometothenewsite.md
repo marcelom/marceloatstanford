@@ -1,7 +1,5 @@
 Title: Welcome To My New Site
-Date: 2013-05-22 11:45
 Tags: Python, Pelican
-Slug: welcometothenewsite
 Author: Marcelo Moreira
 Summary: Welcome to my new site !
 
