@@ -16,7 +16,7 @@ Basically, I wanted something like this in Python:
 
 I then came across this [post](http://stackoverflow.com/questions/12264789/shuffle-array-in-go).
 
-Basically, I implemented it using [Sattolo](http://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle#Sattolo.27s_algorithm)'s Variant of the Fisher–Yates shuffle algorythm.
+Basically, I implemented it using [Sattolo's variant](http://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle#Sattolo.27s_algorithm) of the Fisher–Yates shuffle algorythm.
 
 The code is more or less like this:
 
@@ -41,3 +41,10 @@ The code is more or less like this:
         Shuffle(a)
         fmt.Println(a)
     }
+
+Here is a sample output:
+
+    $ go run myshuffle.go
+    [7 10 8 2 5 1 4 6 9 3]
+
+And here is the [Gist](https://gist.github.com/marcelom/5732441).
