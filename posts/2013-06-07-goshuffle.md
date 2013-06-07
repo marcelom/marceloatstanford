@@ -47,4 +47,4 @@ Here is a sample output:
     $ go run myshuffle.go
     [7 10 8 2 5 1 4 6 9 3]
 
-And here is the [Gist](https://gist.github.com/marcelom/5732441).
+And here is the [Gist](https://gist.github.com/marcelom/5732441) and a [Golang Payground](http://play.golang.org/p/M2qPVZvehi).
