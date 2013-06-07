@@ -1,13 +1,12 @@
 {% extends "base.html" %}
 {% block title %}{{ SITENAME }}, {{ article.title }}{%endblock%}
 {% block content %}
-
 <div id="post">
 	<h1>{{article.title}}</h1>
 	<p class="meta">
 		Posted on {{ articles[0].locale_date }} &mdash; <a href="{{article.url}}">Permalink</a>
 	</p>
 	{{ article.content }}
-	{****% include 'disqus.html' %}
+	<!-- include 'disqus.html' -->
 </div>
 {% endblock %}

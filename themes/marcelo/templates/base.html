@@ -27,14 +27,14 @@
 						<br />
 						Site powered by <a href="http://getpelican.com/">Pelican</a> &amp; <a href="http://python.org/">Python</a>. Fork me on <a href="https://github.com/marcelom/websites">github</a>.
 						<br />
-						Template based on... need to add somestuff here...
+						Template based on <a href="http://github.com/mojombo/jekyll">Jekyll</a> source of <a href="http://tom.preston-werner.com/">http://tom.preston-werner.com/</a>.
 					</p>
 				</div>
 			</div>
 		</div>
-
-		<!-- githuib ribbon -->
-
+		{% if GITHUB_URL %}
+		<a href="{{ GITHUB_URL }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+		{% endif %}
 		<!-- Google Analytics -->
 		<!-- Google Analytics end -->
 
