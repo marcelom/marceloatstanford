@@ -14,7 +14,7 @@ Edit main.cf and add the following two lines:
 
 These will force all outgoing connections to be made exclusively through TLS.
 
-This works well because I use Stanford SMTP servers as my smart relay (see relayhost option at http://www.postfix.org/postconf.5.html#relayhost). If you relay directly to other destinations, then you might want to use smtpd_tls_per_site (http://www.postfix.org/postconf.5.html#smtp_tls_per_site) instead.
+This works well because I use Stanford SMTP servers as my smart relay (see [relayhost](http://www.postfix.org/postconf.5.html#relayhost) option). If you relay directly to other destinations, then you might want to use [smtpd_tls_per_site](http://www.postfix.org/postconf.5.html#smtp_tls_per_site) instead.
 
 To debug the connections, use the following:
 
