@@ -97,7 +97,7 @@ ul.posts span {
 	font-weight: bold;
 	margin-bottom: 2em;
 	border-bottom: 4px solid #eee;
-	text-align: center;
+	/*text-align: center;*/
 }
 
 .site .title a {
@@ -202,12 +202,4 @@ ul.posts span {
 
 #post pre.terminal code {
 	background-color: #333;
-}
-
-#related {
-	margin-top: 2em;
-}
-
-#related h2 {
-	margin-bottom: 1em;
 }
