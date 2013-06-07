@@ -5,15 +5,11 @@
 		{% if FEED_ALL_ATOM %}
 		<link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
 		{% endif %}
-		<!-- <meta name="viewport" content="width=device-width, initial-scale=0.5, minimum-scale=0.45, maximum-scale=1" />
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-touch-fullscreen" content="yes" />-->
 		<title>{% block title %}{{ SITENAME }}{% endblock %}</title>
 		<meta name="author" content="{{AUTHOR}}" />
 		<link rel="stylesheet" type="text/css" href="{{SITEURL_SUFFIX}}/theme/css/syntax.css" />
 		<link rel="stylesheet" type="text/css" media="screen, projection" href="{{SITEURL_SUFFIX}}/theme/css/screen.css" />
 		<link rel="shortcut icon" type="image/x-icon" href="{{SITEURL_SUFFIX}}/favicon.ico" />
-
 	</head>
 	<body>
 		<div class="site">
@@ -27,24 +23,12 @@
 			<div class="footer">
 				<div class="contact">
 					<p>
-						&copy; <a href="{{SITEURL_SUFFIX}}/pages/aboutme.html">Marcelo Moreira</a>
+						&copy; <a href="{{SITEURL_SUFFIX}}/pages/aboutme.html">Marcelo Moreira</a>, under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
 						<br />
-						Cofounder of <a href="http://github.com/">GitHub</a>
+						Site powered by <a href="http://getpelican.com/">Pelican</a> &amp; <a href="http://python.org/">Python</a>. Fork me on <a href="https://github.com/marcelom/websites">github</a>.
 						<br />
-						tom@mojombo.com
+						Template based on... need to add somestuff here...
 					</p>
-				</div>
-				<div class="contact">
-					<p>
-						<a href="http://github.com/mojombo/">github.com/mojombo</a>
-						<br />
-						<a href="http://twitter.com/mojombo/">twitter.com/mojombo</a>
-						<br />
-						<a href="http://flickr.com/photos/mojombo/">flickr.com/photos/mojombo</a>
-					</p>
-				</div>
-				<div class="rss">
-					<a href="http://feeds.feedburner.com/tom-preston-werner"> <img src="/images/rss.png" alt="Subscribe to RSS Feed" /> </a>
 				</div>
 			</div>
 		</div>

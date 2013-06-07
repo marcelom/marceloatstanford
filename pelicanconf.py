@@ -34,9 +34,10 @@ FILENAME_METADATA = '(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'
 # Had to do this because the README.md was confusing Pelican...
 PAGE_DIR = ('pages')
 ARTICLE_DIR = ('posts')
-ARTICLE_EXCLUDES = (('pages', '.'))
+ARTICLE_EXCLUDES = ('pages', '.')
 
 # My theme ignores some templates, so here they are...
+DIRECT_TEMPLATES = ('index',) #Just index, nothing else...
 ARTICLE_URL = '%s/posts/{slug}.html' % SITEURL_SUFFIX
 ARTICLE_SAVE_AS = 'posts/{slug}.html'
 ARTICLE_LANG_SAVE_AS = False  # Dsiables LANG processing, all site is in English...
@@ -45,8 +46,9 @@ PAGE_SAVE_AS = 'pages/{slug}.html'
 PAGE_LANG_SAVE_AS = False
 AUTHOR_SAVE_AS = False
 CATEGORY_SAVE_AS = False
-TAG_URL = '%s/tags/{slug}.html' % SITEURL_SUFFIX
-TAG_SAVE_AS = 'tags/{slug}.html'
+#TAG_URL = '%s/tags/{slug}.html' % SITEURL_SUFFIX
+#TAG_SAVE_AS = 'tags/{slug}.html'
+TAG_SAVE_AS = False
 YEAR_ARCHIVE_SAVE_AS = False
 MONTH_ARCHIVE_SAVE_AS = False
 DAY_ARCHIVE_SAVE_AS = False
