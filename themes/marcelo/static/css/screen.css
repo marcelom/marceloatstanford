@@ -11,8 +11,10 @@ html, body {
 
 body {
 	background-color: white;
-	font: 13.34px helvetica, arial, clean, sans-serif;
-	*font-size: small;
+	/*font: 13.34px helvetica, arial, clean, sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
+	/*font-size: small;*/
+	font-size: 13.34px;
 	text-align: center;
 }
 
@@ -72,7 +74,7 @@ ul.posts span {
 .site {
 	font-size: 110%;
 	text-align: justify;
-	width: 42em;
+	width: 46em;
 	margin: 3em auto 2em auto;
 	line-height: 1.5em;
 }
@@ -82,6 +84,7 @@ ul.posts span {
 	color: #8C1515;
 	font-weight: bold;
 	margin-bottom: 2em;
+	border-bottom: 4px solid #eee;
 }
 
 .site .title a {
