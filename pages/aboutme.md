@@ -8,19 +8,17 @@ My name is Marcelo Moreira and I am the IT Infrastructure Manager (Systems & Net
 
 You can checkout [my github page](https://github.com/marcelom) to see what projects I am working on.
 
-You can contact me [here](http://www.stanford.edu/~marcelom/blog/pages/contact.html).
-
 Besides, if you're reading this, you're probably a friend whom I somehow managed to trick or coerced into giving me some page hits ;-)
 
 # Software I Use and Am Grateful For
 
-## Can't live without:
+Can't live without:
 
  * [Git](http://git-scm.com) - for version control
  * [Ubuntu Linux](http://www.ubuntu.com) - OS of choice for pretty much everything
  * [Python](http://www.python.org) - great language: where has it been all these years ?!?!?! I started using it a few years ago. I just wish I have started sooner.
 
-## Could live without, but have to use:
+Could live without, but have to use:
 
  * [Redhat Linux](http://www.redhat.com) - use it at work because sometimes I just have to. Seriously, not a big fan...
  * [Ruby](http://www.ruby-lang.org) - some of the folks I work with are crazy for it.
