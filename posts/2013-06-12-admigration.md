@@ -41,7 +41,7 @@ That provided me a list of all teh OUs that needed to be migrated. I ran them th
             print 'dsadd ou -d su.win.stanford.edu "%s"'% ','.join(item)
         l += 1
 
-The script dumps dsadd commands in a structured fashion: OU "a" is dumped before OU "a, b", otherwise the second one fails (because the underlying OU doe snot exist).
+The script dumps dsadd commands in a structured fashion: OU "a" is dumped before OU "a, b", otherwise the second one fails (because the underlying OU does not exist).
 
 ## Migrating GPO's
 
