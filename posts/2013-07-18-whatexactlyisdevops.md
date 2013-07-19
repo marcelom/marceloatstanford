@@ -27,5 +27,5 @@ And then concludes:
 
 What such a beautiful and inspiring article to read !
 
-Now, what about getting this in the workplace ? Well... This is completely different beast, and I will leave this talk to a later time.
+Now, what about getting this in the workplace ? Well... This is a completely different beast, and I will leave this talk to a later time.
 
