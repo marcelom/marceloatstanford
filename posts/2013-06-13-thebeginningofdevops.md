@@ -1,7 +1,7 @@
 Title: The Hacker Way... The Beginning of DevOps
 Tags: devops management
 Author: Marcelo Moreira
-Summary: How to start a devops culture in your work environment
+Summary: The Beginning of DevOps (first out of three articles in the series)
 
 It is no big secret that I have actively trying to implement a DevOps culture into the workplace.
 
