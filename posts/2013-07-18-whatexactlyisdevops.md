@@ -11,7 +11,7 @@ I particularly like how the author ([Loudikes](http://radar.oreilly.com/mikel)) 
 
 To quote his article:
 
-> If you’re going to do operations reliably, you need to make it reproducible and programmatic. Hence virtual machines to shield software from configuration issues. Hence Puppet and Chef to automate configuration, so you know every machine has an identical software configuration and is running the right services. Hence Vagrant to ensure that all your virtual machines are constructed identically from the start. Hence automated monitoring tools to ensure that your clusters are running properly. It doesn’t matter whether the nodes are in your own data center, in a hosting facility, or in a public cloud. If you’re not writing software to manage them, you’re not surviving.
+> If you’re going to do operations reliably, you need to make it reproducible and programmatic. Hence virtual machines to shield software from configuration issues. Hence [Puppet](https://puppetlabs.com/) and [Chef](http://www.opscode.com/chef/) to automate configuration, so you know every machine has an identical software configuration and is running the right services. Hence [Vagrant](http://www.vagrantup.com/) to ensure that all your virtual machines are constructed identically from the start. Hence automated monitoring tools to ensure that your clusters are running properly. It doesn’t matter whether the nodes are in your own data center, in a hosting facility, or in a public cloud. If you’re not writing software to manage them, you’re not surviving.
 
 He continues...
 
